@@ -1,0 +1,3 @@
+Functions are reusable and allow you to break the code into smaller parts which are easier to maintain and debug. In Ruby they start with def and end with end.
+
+Functions can't begin with a number, they must begin with a lowercase letter and have no special characters. Variables declared in functions can't be used outside of the function but functions can use variables declared outside the function.

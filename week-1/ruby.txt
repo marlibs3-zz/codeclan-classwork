@@ -1,0 +1,37 @@
+Ruby is one the newest programming languages.
+
+In Ruby everything is an object. Even something passed in quotes will be able to have things asked of it such as "Marta".class or 2.class.
+
+You can pass "string" + "string" and it'll make "string string". A variable is a bucket in which you can store things, for example if you are playing basketball you would want a variable to store the score.
+
+camelCase means a way of formatting where you start with lower case and put an upper case for each new word. ruby-doc.org is the website where all the ruby documentation is. Ruby knows not to mash things together like it'll give you an error if you want to add a string and an integer.
+
+An object HAS stuff and DOES stuff. String has a length, string can be uppercased.
+
+To enter a ruby developing environment in a Terminal you type irb, to exit you type exit. When you have more than one method after a variable it'll execute them in order.
+
+---
+
+= assigns
+
+== checking equality
+
+we can only == things that are the same type so you might need to convert things. 
+
+In atom you need cmd + / to input a comment. It'll know what format of comment you need depending on the file extension.
+
+Ruby goes through cases in order so if you have a score = 10. case = 10 puts well done, case = 8..10 puts pretty good - it'll detect the first case so this would account for decimals.
+
+Instead of if or case you can use guard which is a more simplified and readable way of doing a basic if statement such as:
+result = "fail"
+
+# if score >= 6
+#   result = "pass"
+# end
+
+result = "pass" if score >= 6
+
+puts result
+
+&& both conditions need to be true
+|| one or other condition is true
