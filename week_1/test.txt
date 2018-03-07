@@ -1,0 +1,9 @@
+Arrange
+
+Act
+
+Assert
+
+Always test one function at a time. The above is a common way to structure a test.
+
+assert_equal (expected, actual) - they will be compared and if they are not the same the test fails
