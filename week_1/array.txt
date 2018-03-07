@@ -1,0 +1,24 @@
+Arrays are 0 indexed, this means an array behaves like this:
+[ 1, 2, 3, 4, 5]
+  0  1  2  3  4
+
+Think of it as distance from the first item. In a lot of languages you have to tell the array what size it will be beforehand. In Ruby we don't need to do that - dynamic size array. Ruby is quite a flexible language. Referring to -1 brings the last element in the array.
+
+fruits.push('pear')
+p fruits
+fruits.pop()
+p fruits
+
+push puts something at the end, pop takes away from the end. pop(2) takes away the last two.
+
+# BRACKETS CHEAT SHEET
+
+# SQUARE BRACKETS = create Arrays and access an element of an Array using its index
+my_array = ["a","b","c"] #creates an Array with 3 items
+p my_array[2] #returns third the item in the Array my_array, which is "c"
+
+# ROUND BRACKETS = inside it, you're passing an arguments into a function
+p my_array.push("d") # pass the argument "d" into function push() or the object my_array,  which adds "d" to the end of the array
+
+# CURLY BRACKETS = creating Hashes
+hash = {"a"=>"aaa", "b"=>"bbb"} # create a Hash
